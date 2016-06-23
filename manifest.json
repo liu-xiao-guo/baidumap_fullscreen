@@ -1,0 +1,17 @@
+{
+    "name": "baidumap.canonicalpartners",
+    "description": "description of baidumap",
+    "architecture": "all",
+    "title": "baidumap",
+    "hooks": {
+        "baidumap": {
+            "apparmor": "baidumap.apparmor",
+            "desktop":  "baidumap.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Canonical Content Partners <canonical-content-partners@canonical.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

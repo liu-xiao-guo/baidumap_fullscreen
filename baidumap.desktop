@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=百度地图
+Comment=webapp for baidumap
+Type=Application
+Icon=baidumap.png
+Exec=webapp-container --fullscreen -cookies --webappUrlPatterns=https?://map.baidu.com/* http://map.baidu.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+
